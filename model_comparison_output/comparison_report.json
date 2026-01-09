@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-01-09T23:37:17.474003",
+  "config": {
+    "uniegomotion_root": "d:\\Repository\\UniEgoMotion",
+    "egoallo_root": "d:\\Repository\\egoallo",
+    "uem_env": "uem",
+    "egoallo_env": "egoallo",
+    "sequences": [
+      "indiana_cooking_23_5___0___513"
+    ],
+    "traj_length": 64,
+    "start_index": 0,
+    "output_root": "./model_comparison_output"
+  },
+  "results": [
+    {
+      "sequence": "indiana_cooking_23_5___0___513",
+      "egoallo": {
+        "success": true,
+        "time": 13.056334972381592,
+        "output": "model_comparison_output\\egoallo\\indiana_cooking_23_5___0___513\\indiana_cooking_23_5___0___513\\20260109-230327_0-64.npz",
+        "error": null
+      },
+      "uniegomotion": {
+        "success": false,
+        "time": 20.893056869506836,
+        "output": null,
+        "error": "Return code: 1"
+      }
+    }
+  ]
+}
